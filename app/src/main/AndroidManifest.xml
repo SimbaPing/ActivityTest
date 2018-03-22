@@ -22,14 +22,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity" />
-        <activity android:name=".ThirdActivity">
-            <!-- 为什么要用大写 ACTION -->
-            <intent-filter>
-                <action android:name="android.intent.ACTION.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:scheme="http" />
-            </intent-filter>
-        </activity>
+        <!--<activity android:name=".ThirdActivity">-->
+            <!--&lt;!&ndash; 为什么要用大写 ACTION &ndash;&gt;-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.ACTION.VIEW" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<data android:scheme="http" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
     </application>
 
 </manifest>
